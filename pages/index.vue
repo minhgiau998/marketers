@@ -1,9 +1,15 @@
 <template>
-  <Tutorial />
+  <div>
+    <BaseNavBar></BaseNavBar>
+    <HomeHero></HomeHero>
+    <HomeInformation></HomeInformation>
+    <HomeBranding></HomeBranding>
+    <HomeFeatures></HomeFeatures>
+    <HomeMarketing></HomeMarketing>
+    <HomeJob></HomeJob>
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage',
-}
+export default {}
 </script>
