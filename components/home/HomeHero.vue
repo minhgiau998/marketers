@@ -1,8 +1,10 @@
 <template>
   <BaseContainer class="pt-140px">
-    <div class="flex flex-row justify-center items-center w-full space-x-115px">
+    <div
+      class="flex lg:flex-row flex-col justify-center items-center w-full lg:space-x-115px"
+    >
       <div
-        class="w-2/3 font-general-sans font-semibold -tracking-0.01em text-primary"
+        class="lg:w-2/3 w-full font-general-sans font-semibold -tracking-0.01em text-primary"
       >
         <p class="text-55px-75px">
           Hire fast marketer person <span class="text-dark">with maketer.</span>
@@ -30,7 +32,7 @@
           </BaseButton>
         </div>
       </div>
-      <div class="w-1/3">
+      <div class="lg:w-1/3 w-full mt-4 lg:mt-0">
         <img src="~assets/svg/creative_design.svg" class="w-286px h-269px" />
       </div>
     </div>

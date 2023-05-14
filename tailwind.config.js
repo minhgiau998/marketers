@@ -31,6 +31,7 @@ module.exports = {
       light: colors.light,
       dark: colors.dark,
       alabaster: colors.alabaster,
+      tealish: colors.tealish,
     },
     spacing: {
       px: '1px',

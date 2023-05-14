@@ -13,7 +13,7 @@
           Explore thousand of marketing job opportunities and find your dream
           company with our comprehensive marketing job search platform
         </p>
-        <div class="mt-9 grid grid-cols-3 gap-8 w-full">
+        <div class="mt-9 grid lg:grid-cols-3 grid-cols-1 gap-8 w-full">
           <HomeJobCard class="flex-3"></HomeJobCard>
           <HomeJobCard class="flex-3"></HomeJobCard>
           <HomeJobCard class="flex-3"></HomeJobCard>

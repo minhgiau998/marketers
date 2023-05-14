@@ -293,4 +293,5 @@ module.exports = {
   light: '#D9D9D9',
   dark: '#101010',
   alabaster: '#FAFAFA',
+  tealish: '#00E56F',
 }

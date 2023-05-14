@@ -1,7 +1,7 @@
 <template>
   <nav class="fixed z-20 w-full bg-white">
     <!-- Base Navigation Bar For Desktop -->
-    <div class="hidden lg:block">
+    <div>
       <BaseContainer class="my-30px justify-between">
         <div class="flex flex-row justify-center items-center">
           <a
@@ -11,7 +11,7 @@
             maket<span class="text-secondary">er.</span>
           </a>
           <div
-            class="flex flex-row justify-center items-center space-x-9 font-general-sans font-medium text-18px-24px -tracking-0.5px"
+            class="lg:flex flex-row justify-center items-center space-x-9 font-general-sans font-medium text-18px-24px -tracking-0.5px hidden"
           >
             <a
               href="#"
@@ -71,7 +71,9 @@
             </BaseInput>
           </div>
         </div>
-        <div class="flex flex-row justify-center items-center space-x-14px">
+        <div
+          class="lg:flex hidden flex-row justify-center items-center space-x-14px"
+        >
           <BaseButton color="primary" class="py-19px px-4 h-50px">
             <div
               class="flex flex-row justify-center items-center w-108px h-11px font-general-sans font-semibold text-16px-22px -tracking-0.6px"
@@ -87,6 +89,13 @@
             </div>
           </BaseButton>
         </div>
+        <button @click="open">
+          <div class="hamburger" :class="['hamburger', active]">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </button>
       </BaseContainer>
     </div>
   </nav>

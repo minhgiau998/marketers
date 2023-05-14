@@ -1,6 +1,8 @@
 <template>
-  <BaseContainer class="mt-36 w-full space-x-24">
-    <div class="font-general-sans font-medium w-1/2">
+  <BaseContainer
+    class="mt-36 w-full lg:space-x-24 space-x-0 lg:flex-row flex-col"
+  >
+    <div class="font-general-sans font-medium lg:w-1/2 w-full">
       <p class="text-black text-48px-64px -tracking-0.01em">
         Available many jobs for marketing field
       </p>
@@ -9,7 +11,7 @@
         Amazing!
       </p>
     </div>
-    <div class="relative w-1/2">
+    <div class="relative lg:w-1/2 w-full mt-10 lg:mt-0">
       <img src="~assets/svg/placeholder.svg" alt="" />
       <HomeMarketingCard class="absolute top-30px left-12"></HomeMarketingCard>
     </div>

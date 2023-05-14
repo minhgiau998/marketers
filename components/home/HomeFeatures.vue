@@ -1,8 +1,8 @@
 <template>
   <BaseContainer class="mt-124px">
-    <div class="flex flex-row items-center justify-between w-full">
+    <div class="flex lg:flex-row flex-col items-center justify-between w-full">
       <div class="relative">
-        <img class="ml-21px" src="~assets/svg/placeholder.svg" alt="" />
+        <img class="lg:ml-21px" src="~assets/svg/placeholder.svg" alt="" />
         <div
           class="absolute rounded-18px py-30px px-6 left-0 -top-14px bg-white shadow-card"
         >
@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-      <div class="w-1/2">
+      <div class="lg:w-1/2 w-full mt-10 lg:mt-0">
         <p
           class="font-general-sans font-medium text-black text-48px-64px -tracking-0.01em"
         >
